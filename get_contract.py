@@ -29,6 +29,7 @@ def run(df, save_path):
                 continue
 
             name = save_path + row['name'] + '-' + str(contract_count) + '.sol'
+            name = name.replace(" ", "_")
             with open(name, 'w') as f:
                 f.write(contract)
 
@@ -38,8 +39,8 @@ def run(df, save_path):
         print("======================================")
     print(f"{error_count} files failed.")
 if __name__ == '__main__':
-    df = load_df('./contract_addr/eth/eth_game.csv')
-    run(df, './contract/eth/game/')
+    df = load_df('./contract_addr/eth/eth_gamble.csv')
+    run(df, './contract/eth/gamble/')
 
 # 544/545 game saved: CryptoSpinners
 # ======================================
