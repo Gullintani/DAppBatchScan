@@ -35,12 +35,12 @@ def run(df, save_path):
 
             contract_count += 1
             print("File saved: " + name)
-        print(f"{index}/{total} game saved: {row['name']}")
+        print(f"{index}/{total} DApp saved: {row['name']}")
         print("======================================")
     print(f"{error_count} files failed.")
 if __name__ == '__main__':
-    df = load_df('./contract_addr/eth/eth_gamble.csv')
-    run(df, './contract/eth/gamble/')
+    df = load_df('./contract_addr/eth/eth_highrisk.csv')
+    run(df, './contract/eth/highrisk/')
 
 # 544/545 game saved: CryptoSpinners
 # ======================================

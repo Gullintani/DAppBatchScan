@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error (code 1).\n\n/temp/World_War_Goo-5.sol:185:43: Compiler error: Stack too deep, try removing local variables.\n        uint256 numListings = (endIndex - startIndex) + 1;\r\n                                          ^--------^\n", "issues": []}

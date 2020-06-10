@@ -1,0 +1,467 @@
+,address,debug,description,name,function,lineno,title,type
+0,397,"storage_4: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x27a099d8,208,Integer Overflow ,Warning
+1,792,"storage_5: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x7c423f54,211,Integer Overflow ,Warning
+2,1904,"storage_4: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x27a099d8,211,Integer Overflow ,Warning
+3,1906,"storage_4: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x27a099d8,211,Integer Overflow ,Warning
+4,2270,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Kyber-2.,_function_0x3ccdbb28,322,Message call to external contract,Warning
+5,4347,"storage_5: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x7c423f54,212,Integer Overflow ,Warning
+6,4349,"storage_5: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x7c423f54,212,Integer Overflow ,Warning
+7,5985,"storage_5: 0xfcfce0003b000000000004000001000038500038000000000000000000000040
+calldata_Withdrawable_4: 0x0
+storage_1546678032441257452667456735582814959992782782816731922691272282333561699760: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Withdrawable_4: 0xff00
+storage_0: 0x0
+caller: 0x0
+calldata_Withdrawable_0: 0x1a12fd300000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x01a12fd3`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x01a12fd3,310,Integer Overflow ,Warning
+8,5987,"storage_5: 0xfca2000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_4: 0x0
+storage_1546678032441257452667456735582814959992782782816731922691272282333561699760: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Withdrawable_4: 0xff00
+storage_0: 0x0
+caller: 0x0
+calldata_Withdrawable_0: 0x1a12fd300000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x01a12fd3`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-2.,_function_0x01a12fd3,310,Integer Overflow ,Warning
+9,2425,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Oasis_Trade-0.,cancel(uint256),333,Message call to external contract,Warning
+10,3055,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,Oasis_Trade-0.,cancel(uint256),237,State change after external call,Warning
+11,4888,"The exception is triggered under the following conditions:
+
+storage_keccac_UDiv(calldata_SimpleMarket_4,_1) + 2: 0x200100000000000000000000000000000
+calldata_SimpleMarket_32 + 4: 0x40000eef77733356543c4d0d8682bada
+storage_2: 0x0
+storage_4 + keccac_UDiv(calldata_SimpleMarket_4,_1): 0xffffffffffffffff00
+calldata_SimpleMarket_0: 0x4960645500000000000000000000000000000000000000000000000000000000
+calldatasize_SimpleMarket: 0x4
+storage_keccac_UDiv(calldata_SimpleMarket_4,_1) + 0: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Oasis_Trade-0.,"take(bytes32,uint128)",281,Exception state,Informational
+12,7643,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Oasis_Trade-0.,_function_0x093f5198,398,Message call to external contract,Warning
+13,8241,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,Oasis_Trade-0.,_function_0x093f5198,237,State change after external call,Warning
+14,8341,"storage_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SimpleMarket_32 + 4: 0x2010000000000000000000000000000
+calldata_SimpleMarket_32 + 68: 0xffffffffffffffffffffffffffffffff
+calldata_SimpleMarket_4: 0x2000000000000000000000000000000
+calldata_SimpleMarket_32 + 36: 0xffffffffffffffffffffffffffffffff
+storage_2: 0x0
+calldata_SimpleMarket_0: 0x93f519800000000000000000000000000000000000000000000000000000000
+calldatasize_SimpleMarket: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x093f5198`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Oasis_Trade-0.,_function_0x093f5198,421,Integer Overflow ,Warning
+15,2425,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Oasis_Trade-1.,cancel(uint256),434,Message call to external contract,Warning
+16,3055,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,Oasis_Trade-1.,cancel(uint256),334,State change after external call,Warning
+17,4888,"The exception is triggered under the following conditions:
+
+storage_keccac_UDiv(calldata_SimpleMarket_4,_1) + 2: 0x200100000000000000000000000000000
+calldata_SimpleMarket_32 + 4: 0x40000eef77733356543c4d0d8682bada
+storage_2: 0x0
+storage_4 + keccac_UDiv(calldata_SimpleMarket_4,_1): 0xffffffffffffffff00
+calldata_SimpleMarket_0: 0x4960645500000000000000000000000000000000000000000000000000000000
+calldatasize_SimpleMarket: 0x4
+storage_keccac_UDiv(calldata_SimpleMarket_4,_1) + 0: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Oasis_Trade-1.,"take(bytes32,uint128)",380,Exception state,Informational
+18,7643,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Oasis_Trade-1.,_function_0x093f5198,498,Message call to external contract,Warning
+19,8241,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,Oasis_Trade-1.,_function_0x093f5198,334,State change after external call,Warning
+20,8341,"storage_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SimpleMarket_32 + 4: 0x2010000000000000000000000000000
+calldata_SimpleMarket_32 + 68: 0xffffffffffffffffffffffffffffffff
+calldata_SimpleMarket_4: 0x2000000000000000000000000000000
+calldata_SimpleMarket_32 + 36: 0xffffffffffffffffffffffffffffffff
+storage_2: 0x0
+calldata_SimpleMarket_0: 0x93f519800000000000000000000000000000000000000000000000000000000
+calldatasize_SimpleMarket: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x093f5198`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Oasis_Trade-1.,_function_0x093f5198,520,Integer Overflow ,Warning
+21,397,"storage_4: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x27a099d8,92,Integer Overflow ,Warning
+22,792,"storage_5: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x7c423f54,97,Integer Overflow ,Warning
+23,1904,"storage_4: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x27a099d8,95,Integer Overflow ,Warning
+24,1906,"storage_4: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x27a099d8,95,Integer Overflow ,Warning
+25,2270,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Kyber-3.,_function_0x3ccdbb28,248,Message call to external contract,Warning
+26,4347,"storage_5: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x7c423f54,102,Integer Overflow ,Warning
+27,4349,"storage_5: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x7c423f54,102,Integer Overflow ,Warning
+28,5985,"storage_5: 0xfcfce0003b000000000004000001000038500038000000000000000000000040
+calldata_Withdrawable_4: 0x0
+storage_1546678032441257452667456735582814959992782782816731922691272282333561699760: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Withdrawable_4: 0xff00
+storage_0: 0x0
+caller: 0x0
+calldata_Withdrawable_0: 0x1a12fd300000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x01a12fd3`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x01a12fd3,236,Integer Overflow ,Warning
+29,5987,"storage_5: 0xfca2000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_4: 0x0
+storage_1546678032441257452667456735582814959992782782816731922691272282333561699760: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Withdrawable_4: 0xff00
+storage_0: 0x0
+caller: 0x0
+calldata_Withdrawable_0: 0x1a12fd300000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x01a12fd3`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-3.,_function_0x01a12fd3,236,Integer Overflow ,Warning
+30,1137,"timestamp: 0x0
+storage_6: 0x1
+calldata_SaiVox_0: 0x5d6542af00000000000000000000000000000000000000000000000000000000
+calldatasize_SaiVox: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `way()`.
+The subtraction may result in a value < 0.",MakerDAO-26.,way(),598,Integer Underflow,Warning
+31,1419,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,MakerDAO-26.,setOwner(address),45,State change after external call,Warning
+32,3608,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-26.,tune(uint256),74,Message call to external contract,Informational
+33,3608,,A possible transaction order independence vulnerability exists in function tune(uint256). The value or direction of the call statement is determined from a tainted storage location,MakerDAO-26.,tune(uint256),74,Transaction order dependence,Warning
+34,1137,"timestamp: 0x0
+storage_6: 0x1
+calldata_SaiVox_0: 0x5d6542af00000000000000000000000000000000000000000000000000000000
+calldatasize_SaiVox: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `way()`.
+The subtraction may result in a value < 0.",MakerDAO-30.,way(),598,Integer Underflow,Warning
+35,1419,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,MakerDAO-30.,setOwner(address),45,State change after external call,Warning
+36,3608,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-30.,tune(uint256),74,Message call to external contract,Informational
+37,3608,,A possible transaction order independence vulnerability exists in function tune(uint256). The value or direction of the call statement is determined from a tainted storage location,MakerDAO-30.,tune(uint256),74,Transaction order dependence,Warning
+38,1231,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xabbbb0ce8dd4b0201de0000000000000001002080800000000010309a1125032
+callvalue: 0xa8888ffc92536ddfe22000000000000000100208080000000000f42181131dbc
+calldata_WETH9_0: 0xd300000000000000000000000000000000000000000000000000000000
+calldatasize_WETH9: 0x4
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MakerDAO-46.,fallback,35,Integer Overflow ,Warning
+39,2475,"calldata_WETH9_32 + 4: 0xc290137095b13347e55005a6dc184559e0489f1233480050d0fb4bba17d34179
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_WETH9_4: 0x9c9efb7ae5acd378025256a3945f5859076e809243093d9ecae2636c9fd28979
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xc290137095b13347e55005a6dc184559e0489f1233480050d0fb4bba17d34179
+calldata_WETH9_0: 0xa9059cbb00000000000000000000000000000000000000000000000000000000
+calldatasize_WETH9: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `transfer(address,uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MakerDAO-46.,"transfer(address,uint256)",75,Integer Overflow ,Warning
+40,1137,"timestamp: 0x0
+storage_6: 0x1
+calldata_SaiVox_0: 0x5d6542af00000000000000000000000000000000000000000000000000000000
+calldatasize_SaiVox: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `way()`.
+The subtraction may result in a value < 0.",MakerDAO-32.,way(),308,Integer Underflow,Warning
+41,1419,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,MakerDAO-32.,setOwner(address),45,State change after external call,Warning
+42,3608,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-32.,tune(uint256),74,Message call to external contract,Informational
+43,3608,,A possible transaction order independence vulnerability exists in function tune(uint256). The value or direction of the call statement is determined from a tainted storage location,MakerDAO-32.,tune(uint256),74,Transaction order dependence,Warning
+44,769,"calldata_PriceOracle_4: 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc
+calldata_PriceOracle_0: 0x4352fa9f00000000000000000000000000000000000000000000000000000000
+calldatasize_PriceOracle: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x4352fa9f`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Compound-11.,_function_0x4352fa9f,926,Integer Overflow ,Warning
+45,936,"mem_160 +
+32*calldata_PriceOracle_4 + calldata_PriceOracle_4 +
+32 +
+32*calldata_PriceOracle_4 + calldata_PriceOracle_32 + 4: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+storage_5: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldata_PriceOracle_0: 0x4352fa9f00000000000000000000000000000000000000000000000000000000
+calldatasize_PriceOracle: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x4352fa9f`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Compound-11.,_function_0x4352fa9f,926,Integer Overflow ,Warning
+46,2545,"The exception is triggered under the following conditions:
+
+storage_5: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldata_PriceOracle_0: 0x4352fa9f00000000000000000000000000000000000000000000000000000000
+calldatasize_PriceOracle: 0x4
+mem_160 +
+32*calldata_PriceOracle_4 + calldata_PriceOracle_4 +
+32 +
+32*calldata_PriceOracle_4 + calldata_PriceOracle_32 + 4: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Compound-11.,_function_0x4352fa9f,931,Exception state,Informational
+47,2667,"The exception is triggered under the following conditions:
+
+calldata_PriceOracle_4 + calldata_PriceOracle_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+mem_128 +
+32 +
+32*calldata_PriceOracle_4 + calldata_PriceOracle_4: 0x0
+storage_5: 0x0
+caller: 0x0
+calldata_PriceOracle_0: 0x4352fa9f00000000000000000000000000000000000000000000000000000000
+calldatasize_PriceOracle: 0x4
+mem_160 +
+32*calldata_PriceOracle_4 + calldata_PriceOracle_4 +
+32 +
+32*calldata_PriceOracle_4 + calldata_PriceOracle_32 + 4: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Compound-11.,_function_0x4352fa9f,931,Exception state,Informational
+48,3365,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Compound-11.,assetPrices(address),708,Message call to external contract,Warning
+49,764,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+callvalue: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+calldatasize_WETH9: 0x3
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",dYdX-0.,fallback,42,Integer Overflow ,Warning
+50,2140,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"lockAndDraw(address,uint256)",191,Message call to external contract,Warning
+51,2140,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2264
+",MakerDAO-8.,"lockAndDraw(address,uint256)",191,Multiple Calls,Information
+52,2264,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"lockAndDraw(address,uint256)",193,Message call to external contract,Warning
+53,2264,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2485
+",MakerDAO-8.,"lockAndDraw(address,bytes32,uint256)",193,Multiple Calls,Information
+54,2485,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-8.,"lockAndDraw(address,bytes32,uint256)",193,Message call to external contract,Informational
+55,2796,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"createAndOpen(address,address)",291,Message call to external contract,Warning
+56,2796,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 3039
+Call at address: 6550
+",MakerDAO-8.,"createAndOpen(address,address)",291,Multiple Calls,Information
+57,3039,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"createAndOpen(address,address)",292,Message call to external contract,Warning
+58,3202,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"shut(address,bytes32,address)",284,Message call to external contract,Warning
+59,3202,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 3361
+",MakerDAO-8.,"shut(address,bytes32,address)",284,Multiple Calls,Information
+60,3361,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"shut(address,bytes32,address)",284,Message call to external contract,Warning
+61,3871,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"wipeAndFree(address,bytes32,uint256,uint256)",217,Message call to external contract,Warning
+62,3871,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 4334
+Call at address: 4144
+",MakerDAO-8.,"wipe(address,bytes32,uint256)",217,Multiple Calls,Information
+63,4144,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-8.,"wipe(address,bytes32,uint256)",217,Message call to external contract,Informational
+64,4144,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 4334
+",MakerDAO-8.,"wipe(address,bytes32,uint256)",217,Multiple Calls,Information
+65,4334,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"wipe(address,bytes32,uint256)",219,Message call to external contract,Warning
+66,4334,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 4512
+",MakerDAO-8.,"wipe(address,bytes32,uint256,address)",219,Multiple Calls,Information
+67,4512,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"wipe(address,bytes32,uint256,address)",220,Message call to external contract,Warning
+68,6550,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"createOpenAndLock(address,address)",163,Message call to external contract,Warning
+69,6550,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 3039
+",MakerDAO-8.,"createAndOpen(address,address)",163,Multiple Calls,Information
+70,6748,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"shut(address,bytes32)",272,Message call to external contract,Warning
+71,6748,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 6907
+",MakerDAO-8.,"shut(address,bytes32)",272,Multiple Calls,Information
+72,6907,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"shut(address,bytes32)",273,Message call to external contract,Warning
+73,7417,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"lock(address,bytes32)",171,Message call to external contract,Warning
+74,7417,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 7704
+Call at address: 7575
+",MakerDAO-8.,"lock(address,bytes32)",171,Multiple Calls,Information
+75,7575,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-8.,"lock(address,bytes32)",171,Message call to external contract,Informational
+76,7575,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 7704
+",MakerDAO-8.,"lock(address,bytes32)",171,Multiple Calls,Information
+77,7704,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"lock(address,bytes32)",175,Message call to external contract,Warning
+78,9905,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"createOpenLockAndDraw(address,address,uint256)",305,Message call to external contract,Warning
+79,9905,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 6550
+",MakerDAO-8.,"createOpenLockAndDraw(address,address,uint256)",305,Multiple Calls,Information
+80,10362,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"give(address,bytes32,address)",165,Message call to external contract,Warning
+81,10549,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"createOpenAndLock(address,address)",299,Message call to external contract,Warning
+82,10549,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 6550
+",MakerDAO-8.,"createOpenAndLock(address,address)",299,Multiple Calls,Information
+83,10952,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-8.,"free(address,bytes32,uint256)",239,Message call to external contract,Warning
+84,1905,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldata_ERC20_32 + 4: 0x1
+calldata_ERC20_0: 0xa9059cbb00000000000000000000000000000000000000000000000000000000
+calldatasize_ERC20: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `transfer(address,uint256)`.
+The subtraction may result in a value < 0.",MakerDAO-14.,"transfer(address,uint256)",102,Integer Underflow,Warning
+85,1933,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x8a007bfffffffffffffffff5ffffffffffffffffffffffffffffffffffffffff
+calldata_ERC20_32 + 4: 0x83ffff0000000000000000000000000000000000000000000000000000000000
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_ERC20_4: 0xbe00000000000000000000000010000000000000420000000020000000000000
+calldata_ERC20_0: 0xa9059cbb00000000000000000000000000000000000000000000000000000000
+calldatasize_ERC20: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `transfer(address,uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MakerDAO-14.,"transfer(address,uint256)",99,Integer Overflow ,Warning
+86,877,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",MakerDAO-18.,build(address),241,Message call to external contract,Warning
+87,877,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 1161
+",MakerDAO-18.,build(address),241,Multiple Calls,Information
+88,1161,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-18.,build(address),241,Message call to external contract,Informational
+89,1343,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,MakerDAO-18.,build(),241,State change after external call,Warning
+90,1137,"timestamp: 0x0
+storage_6: 0x1
+calldata_SaiVox_0: 0x5d6542af00000000000000000000000000000000000000000000000000000000
+calldatasize_SaiVox: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `way()`.
+The subtraction may result in a value < 0.",MakerDAO-19.,way(),598,Integer Underflow,Warning
+91,1419,,The contract account state is changed after an external call. Consider that the called contract could re-enter the function before this state change takes place. This can lead to business logic vulnerabilities.,MakerDAO-19.,setOwner(address),45,State change after external call,Warning
+92,3608,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,MakerDAO-19.,tune(uint256),74,Message call to external contract,Informational
+93,3608,,A possible transaction order independence vulnerability exists in function tune(uint256). The value or direction of the call statement is determined from a tainted storage location,MakerDAO-19.,tune(uint256),74,Transaction order dependence,Warning
+94,397,"storage_4: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x27a099d8,132,Integer Overflow ,Warning
+95,792,"storage_5: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x7c423f54,136,Integer Overflow ,Warning
+96,1904,"storage_4: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x27a099d8,134,Integer Overflow ,Warning
+97,1906,"storage_4: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+calldata_Withdrawable_0: 0x27a099d800000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x27a099d8`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x27a099d8,134,Integer Overflow ,Warning
+98,2270,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Kyber-1.,_function_0x3ccdbb28,244,Message call to external contract,Warning
+99,4347,"storage_5: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x7c423f54,139,Integer Overflow ,Warning
+100,4349,"storage_5: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+calldata_Withdrawable_0: 0x7c423f5400000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x7c423f54`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x7c423f54,139,Integer Overflow ,Warning
+101,5985,"storage_5: 0xfcfce0003b000000000004000001000038500038000000000000000000000040
+calldata_Withdrawable_4: 0x0
+storage_1546678032441257452667456735582814959992782782816731922691272282333561699760: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Withdrawable_4: 0xff00
+storage_0: 0x0
+caller: 0x0
+calldata_Withdrawable_0: 0x1a12fd300000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x01a12fd3`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x01a12fd3,232,Integer Overflow ,Warning
+102,5987,"storage_5: 0xfca2000000000000000000000000000000000000000000000000000000000000
+calldata_Withdrawable_4: 0x0
+storage_1546678032441257452667456735582814959992782782816731922691272282333561699760: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Withdrawable_4: 0xff00
+storage_0: 0x0
+caller: 0x0
+calldata_Withdrawable_0: 0x1a12fd300000000000000000000000000000000000000000000000000000000
+calldatasize_Withdrawable: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0x01a12fd3`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Kyber-1.,_function_0x01a12fd3,232,Integer Overflow ,Warning
