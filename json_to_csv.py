@@ -40,4 +40,4 @@ def convert_json_to_csv(file_path:str, save_path:str):
 
 
 if __name__ == '__main__':
-    convert_json_to_csv("./contract/eth/gamble_result/", "./scan_result/eth_gamble.csv")
+    convert_json_to_csv("./contract/eth/highrisk_result/", "./scan_result/eth_highrisk.csv")

@@ -49,5 +49,5 @@ def print_hello(content):
 	print(content)
 
 if __name__ == '__main__':
-	loop('contract/eth/gamble', 'contract/eth/gamble_result/')
+	loop('contract/eth/highrisk', 'contract/eth/highrisk_result/')
 	

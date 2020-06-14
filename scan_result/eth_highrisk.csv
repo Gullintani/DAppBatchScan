@@ -1,0 +1,2619 @@
+,address,debug,description,name,function,lineno,title,type
+0,4087,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_StandardToken_4: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+calldata_StandardToken_32 + 4: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+calldata_StandardToken_0: 0xd73dd62300000000000000000000000000000000000000000000000000000000
+calldatasize_StandardToken: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `increaseApproval(address,uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MagicX-0.,"increaseApproval(address,uint256)",27,Integer Overflow ,Warning
+1,4100,"The exception is triggered under the following conditions:
+
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_StandardToken_4: 0x1
+calldata_StandardToken_32 + 4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_StandardToken_0: 0xd73dd62300000000000000000000000000000000000000000000000000000000
+calldatasize_StandardToken: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",MagicX-0.,"increaseApproval(address,uint256)",28,Exception state,Informational
+2,714,"storage_87903029871075914254377627908054574944891091886930582284385770809450030037085: 0x800000000000000000000000000000000000000000000000000000000000001
+calldata_SmartInvestments_4: 0x0
+storage_87903029871075914254377627908054574944891091886930582284385770809450030037084: 0x0
+storage_87903029871075914254377627908054574944891091886930582284385770809450030037083: 0x0
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartInvestments_0: 0x1726d2c500000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getRefPercents(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getRefPercents(uint256),133,Integer Overflow ,Warning
+3,2610,"The exception is triggered under the following conditions:
+
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x20000000000
+storage_7: 0x20000000000
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_SmartInvestments: 0x3
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,fallback,294,Exception state,Informational
+4,2662,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x400000000000000000000000000000000
+callvalue: 0xaa235ea45225d6dce63d66615aac18002115454a7df4472b057dd6a6fbd46f66
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+4: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+storage_1 +
+75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xabb9cf361ad512052dd4a1500aad1cfc5e9a31723135973f797906c4c2c17772
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+1: 0x0
+storage_62514009886607029107290561805838585334079798074568712924583230797734656856475: 0x1
+storage_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_7: 0x400000000000000000000000000000001
+calldatasize_SmartInvestments: 0x3
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,fallback,301,Integer Overflow ,Warning
+5,2675,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x400000000000000000000000000000000
+callvalue: 0xaa235ea45225d6dce63d66615aac18002115454a7df4472b057dd6a6fbd46f66
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+4: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+storage_5: 0xabb9cf361ad512052dd4a1500aad1cfc5e9a31723135973f797906c4c2c17772
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+1: 0x0
+storage_62514009886607029107290561805838585334079798074568712924583230797734656856475: 0x1
+storage_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_7: 0x400000000000000000000000000000001
+calldatasize_SmartInvestments: 0x3
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,fallback,301,Integer Overflow ,Warning
+6,3402,"The exception is triggered under the following conditions:
+
+calldata_SmartInvestments_0: 0x1726d2c500000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+storage_3: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,getRefPercents(uint256),138,Exception state,Informational
+7,3460,"storage_87903029871075914254377627908054574944891091886930582284385770809450030037085: 0x800000000000000000000000000000000000000000000000000000000000000
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartInvestments_0: 0x1726d2c500000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getRefPercents(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getRefPercents(uint256),135,Integer Overflow ,Warning
+8,3463,"storage_87903029871075914254377627908054574944891091886930582284385770809450030037085: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartInvestments_0: 0x1726d2c500000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getRefPercents(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getRefPercents(uint256),135,Integer Overflow ,Warning
+9,3469,"storage_87903029871075914254377627908054574944891091886930582284385770809450030037085: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartInvestments_0: 0x1726d2c500000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getRefPercents(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getRefPercents(uint256),135,Integer Overflow ,Warning
+10,3494,"storage_87903029871075914254377627908054574944891091886930582284385770809450030037085: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartInvestments_0: 0x1726d2c500000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getRefPercents(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getRefPercents(uint256),135,Integer Overflow ,Warning
+11,3496,"storage_87903029871075914254377627908054574944891091886930582284385770809450030037085: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff6
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartInvestments_0: 0x1726d2c500000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getRefPercents(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getRefPercents(uint256),135,Integer Overflow ,Warning
+12,4054,"The exception is triggered under the following conditions:
+
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x0
+calldata_SmartInvestments_0: 0x3feb5f2b00000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,_function_0x3feb5f2b,189,Exception state,Informational
+13,4140,"The exception is triggered under the following conditions:
+
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x0
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,getInvestorInfo(uint256),212,Exception state,Informational
+14,4218,"storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*calldata_SmartInvestments_4 +
+4: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x1
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInvestorInfo(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getInvestorInfo(uint256),209,Integer Overflow ,Warning
+15,4221,"storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*calldata_SmartInvestments_4 +
+4: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x1
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInvestorInfo(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getInvestorInfo(uint256),209,Integer Overflow ,Warning
+16,4227,"storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*calldata_SmartInvestments_4 +
+4: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x1
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInvestorInfo(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getInvestorInfo(uint256),209,Integer Overflow ,Warning
+17,4252,"storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*calldata_SmartInvestments_4 +
+4: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x1
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInvestorInfo(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getInvestorInfo(uint256),209,Integer Overflow ,Warning
+18,4254,"storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*calldata_SmartInvestments_4 +
+4: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x1
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInvestorInfo(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getInvestorInfo(uint256),209,Integer Overflow ,Warning
+19,4431,"storage_keccac_0: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x1
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*calldata_SmartInvestments_4 +
+4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInvestorInfo(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getInvestorInfo(uint256),212,Integer Overflow ,Warning
+20,4433,"storage_keccac_0: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee
+calldata_SmartInvestments_4: 0x0
+storage_7: 0x1
+calldata_SmartInvestments_0: 0x41c9696400000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*calldata_SmartInvestments_4 +
+4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInvestorInfo(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,getInvestorInfo(uint256),212,Integer Overflow ,Warning
+21,4549,"The exception is triggered under the following conditions:
+
+calldata_SmartInvestments_4: 0x0
+storage_4: 0x0
+calldata_SmartInvestments_0: 0x4b5a726d00000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,getProgramInfo(uint256),147,Exception state,Informational
+22,4770,"The exception is triggered under the following conditions:
+
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_7: 0x0
+calldata_SmartInvestments_0: 0x534844a200000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,withdrawAmount(),306,Exception state,Informational
+23,4882,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x1000
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+4: 0x842000000000000080007c000007c1f00000000020eaf39ab268003e2b21d17
+storage_7: 0x1001
+calldata_SmartInvestments_0: 0x3ccfd60b00000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `withdraw()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,withdraw(),306,Integer Overflow ,Warning
+24,4884,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x4
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+4: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef
+storage_7: 0x5
+calldata_SmartInvestments_0: 0x3ccfd60b00000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `withdraw()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,withdraw(),306,Integer Overflow ,Warning
+25,4954,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x4000000000000000000000000000000000000000000000000000000000000000
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+4: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef
+timestamp: 0x0
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+0: 0x1
+storage_7: 0x4000000000000000000000000000000000000000000000000000000000000001
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_SmartInvestments: 0x3
+","A possible integer underflow exists in the function `fallback`.
+The subtraction may result in a value < 0.",Smart_Investments-0.,fallback,311,Integer Underflow,Warning
+26,5028,"The exception is triggered under the following conditions:
+
+calldata_SmartInvestments_4: 0x0
+storage_3: 0x0
+calldata_SmartInvestments_0: 0x5e047d5800000000000000000000000000000000000000000000000000000000
+calldatasize_SmartInvestments: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,_function_0x5e047d58,80,Exception state,Informational
+27,5702,"The exception is triggered under the following conditions:
+
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x4000000000000000000000000000000000000000000000000000000000000000
+storage_75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller +
+4: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef
+storage_7: 0x4000000000000000000000000000000000000000000000000000000000000001
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_SmartInvestments: 0x3
+storage_4: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smart_Investments-0.,fallback,161,Exception state,Informational
+28,6363,"storage_7: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_SmartInvestments: 0x3
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,fallback,1,Integer Overflow ,Warning
+29,8446,"storage_4 +
+75276140696391174450305814049576319106646922510300487059720162673006384432776 +
+7*storage_7: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+keccac_4_+
+75276140696391174450305814049576319106646922510300487059720162673006384432776_+
+7*storage_7: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_SmartInvestments: 0x3
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,fallback,163,Integer Overflow ,Warning
+30,8481,"keccac_4_+
+75276140696391174450305814049576319106646922510300487059720162673006384432776_+
+7*storage_7: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_SmartInvestments: 0x3
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Investments-0.,fallback,163,Integer Overflow ,Warning
+31,2452,"timestamp: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_6: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_Redline: 0x3
+storage_keccac_0: 0x0
+storage_78541660797044910968829902406342334108369226379826116161446442989268089806461: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",RedLine-0.,fallback,135,Integer Overflow ,Warning
+32,2636,"storage_keccac_0: 0x83ffb3569638cea3622d597040d78d7ab7ae5c8a2d8bbb012cad3fb961bad806
+storage_6: 0xe6089257c80ac0cbe60d5926ff262844c7005edbab82a162281118017d351c97
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_Redline: 0x3
+storage_78541660797044910968829902406342334108369226379826116161446442989268089806461: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",RedLine-0.,fallback,136,Integer Overflow ,Warning
+33,3477,"storage_2: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_24465873643947496235832446106509767096567058095563226156125564318740882468607: 0xaa108000002bd3db7704854d60910b506d8900000000000000000000000051ac
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_24465873643947496235832446106509767096567058095563226156125564318740882468607,
+_____256): 0x0
+storage_5: 0x1
+calldatasize_Redline: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_78541660797044910968829902406342334108369226379826116161446442989268089806461: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",RedLine-0.,fallback,115,Integer Overflow ,Warning
+34,4799,"The exception is triggered under the following conditions:
+
+storage_24465873643947496235832446106509767096567058095563226156125564318740882468607: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_2: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_Redline: 0x3
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_24465873643947496235832446106509767096567058095563226156125564318740882468607,
+_____256): 0x0
+storage_5: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_78541660797044910968829902406342334108369226379826116161446442989268089806461: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",RedLine-0.,fallback,151,Exception state,Informational
+35,4989,"The exception is triggered under the following conditions:
+
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_24465873643947496235832446106509767096567058095563226156125564318740882468607,
+_____256): 0x1
+storage_24465873643947496235832446106509767096567058095563226156125564318740882468607: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_5: 0x1
+storage_2: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_Redline: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_78541660797044910968829902406342334108369226379826116161446442989268089806461: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",RedLine-0.,fallback,152,Exception state,Informational
+36,2868,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,level(uint256),187,Message call to external contract,Informational
+37,3125,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,drawProposalBouns(),125,Message call to external contract,Informational
+38,3125,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 3247
+",WCG-0.,drawProposalBouns(),125,Multiple Calls,Information
+39,3125,,A possible transaction order independence vulnerability exists in function drawProposalBouns(). The value or direction of the call statement is determined from a tainted storage location,WCG-0.,drawProposalBouns(),125,Transaction order dependence,Warning
+40,3247,"SOLVER OUTPUT:
+returndatasize: 0x20
+retval_3125: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+extcodesize: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_wcgData_0: 0xa1aca6300000000000000000000000000000000000000000000000000000000
+calldatasize_wcgData: 0x4
+callvalue: 0x0
+","In the function `drawProposalBouns()` a non-zero amount of Ether is sent to msg.sender.
+It seems that this function can be called without restrictions.",WCG-0.,drawProposalBouns(),126,Ether send,Warning
+41,3432,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,paymentVipOfEth(uint256),134,Message call to external contract,Informational
+42,3432,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 3729
+",WCG-0.,paymentVipOfEth(uint256),134,Multiple Calls,Information
+43,3729,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,paymentVipOfEth(uint256),136,Message call to external contract,Informational
+44,4236,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,totalSupply(),87,Message call to external contract,Informational
+45,4436,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,wcgBonusPool(),121,Message call to external contract,Informational
+46,4647,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,sellToken(uint256),90,Message call to external contract,Informational
+47,4864,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,wcgInfosOf(uint256),109,Message call to external contract,Informational
+48,5171,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,"userVipsOf(address,uint256)",178,Message call to external contract,Informational
+49,5494,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,ethbuyToKen(uint256),75,Message call to external contract,Informational
+50,5942,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,serviceCharge(uint256),164,Message call to external contract,Informational
+51,6404,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,paymentVipOfWcg(uint256),141,Message call to external contract,Informational
+52,6404,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 6612
+",WCG-0.,paymentVipOfWcg(uint256),141,Multiple Calls,Information
+53,6612,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,paymentVipOfWcg(uint256),141,Message call to external contract,Informational
+54,7726,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,userOrders(uint256),173,Message call to external contract,Informational
+55,8081,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,"putaway(uint256,uint256)",148,Message call to external contract,Informational
+56,8708,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,getUserVipsLength(),183,Message call to external contract,Informational
+57,8979,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,WCG-0.,sellVip(uint256),156,Message call to external contract,Informational
+58,716,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,fallback,260,Message call to external contract,Informational
+59,716,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 1258
+Call at address: 986
+",Smart_Pyramid-0.,fallback,260,Multiple Calls,Information
+60,773,"retval_716: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd0
+timestamp: 0x0
+returndatasize: 0x20
+extcodesize: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+calldata_SmartPyramid_0: 0x100000000000000000000000000000000000000000000000000000000
+calldatasize_SmartPyramid: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Pyramid-0.,fallback,260,Integer Overflow ,Warning
+61,986,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,fallback,267,Message call to external contract,Informational
+62,986,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 1258
+",Smart_Pyramid-0.,fallback,267,Multiple Calls,Information
+63,1258,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,fallback,263,Message call to external contract,Informational
+64,1258,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 1506
+",Smart_Pyramid-0.,withdraw(),263,Multiple Calls,Information
+65,1506,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,withdraw(),263,Message call to external contract,Informational
+66,2208,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2951
+Call at address: 2696
+Call at address: 986
+Call at address: 716
+Call at address: 2425
+",Smart_Pyramid-0.,fallback,239,Multiple Calls,Information
+67,2425,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,fallback,242,Message call to external contract,Informational
+68,2425,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2951
+Call at address: 2696
+Call at address: 986
+Call at address: 716
+",Smart_Pyramid-0.,fallback,242,Multiple Calls,Information
+69,2696,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,fallback,243,Message call to external contract,Informational
+70,2696,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2951
+",Smart_Pyramid-0.,fallback,243,Multiple Calls,Information
+71,2951,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,fallback,245,Message call to external contract,Informational
+72,2951,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 3228
+",Smart_Pyramid-0.,invest(),245,Multiple Calls,Information
+73,3228,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,invest(),246,Message call to external contract,Informational
+74,3228,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 3343
+",Smart_Pyramid-0.,fallback,246,Multiple Calls,Information
+75,4526,"timestamp: 0x0
+storage_2: 0x0
+calldata_SmartPyramid_0: 0x789b2e6c00000000000000000000000000000000000000000000000000000000
+calldatasize_SmartPyramid: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `payDay()`.
+The subtraction may result in a value < 0.",Smart_Pyramid-0.,payDay(),295,Integer Underflow,Warning
+76,5267,,"In the function `payDay()` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+- block.timestamp
+- block.timestamp
+",Smart_Pyramid-0.,payDay(),306,Dependence on predictable environment variable,Warning
+77,5267,,A possible transaction order independence vulnerability exists in function payDay(). The value or direction of the call statement is determined from a tainted storage location,Smart_Pyramid-0.,payDay(),306,Transaction order dependence,Warning
+78,5653,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,getInfo(address),209,Message call to external contract,Informational
+79,5653,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 6448
+Call at address: 6176
+Call at address: 5906
+",Smart_Pyramid-0.,getInfo(address),209,Multiple Calls,Information
+80,5906,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,getInfo(address),211,Message call to external contract,Informational
+81,5906,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 6448
+Call at address: 6176
+",Smart_Pyramid-0.,getInfo(address),211,Multiple Calls,Information
+82,5963,"retval_5906: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe8
+returndatasize: 0x20
+retval_5653: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+extcodesize: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_SmartPyramid_0: 0xffdd5cf100000000000000000000000000000000000000000000000000000000
+calldatasize_SmartPyramid: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `getInfo(address)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smart_Pyramid-0.,getInfo(address),211,Integer Overflow ,Warning
+83,6176,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,getInfo(address),216,Message call to external contract,Informational
+84,6176,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 6448
+",Smart_Pyramid-0.,getInfo(address),216,Multiple Calls,Information
+85,6448,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Smart_Pyramid-0.,getInfo(address),215,Message call to external contract,Informational
+86,1831,"storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4: 0x800000000000000000000000000000000000000000000000000000000000000
+calldata_Fomo5k_0: 0x4a4baa8f00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `viewUserReferral(address)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,viewUserReferral(address),283,Integer Overflow ,Warning
+87,3118,"storage_3: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_keccac_0: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+calldatasize_Fomo5k: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,fallback,180,Integer Overflow ,Warning
+88,3875,"storage_3: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+storage_62198580835250178065021801198189918775038380989085965706744441162150748123962: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_Fomo5k: 0x3
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,fallback,191,Integer Overflow ,Warning
+89,4888,"storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_calldata_Fomo5k_4,_256): 0x0
+storage_2: 0x1
+calldata_Fomo5k_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldata_Fomo5k_0: 0x8853b53e00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `regUser(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,regUser(uint256),153,Integer Overflow ,Warning
+90,5121,"mem_320 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_Fomo5k)) +
+96: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_8: 0x0
+storage_2: 0x1
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_Fomo5k: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,fallback,162,Integer Overflow ,Warning
+91,6240,"The exception is triggered under the following conditions:
+
+storage_8: 0x0
+calldata_Fomo5k_4: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldata_Fomo5k_0: 0x8853b53e00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_calldata_Fomo5k_4,_256): 0x0
+storage_2: 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fomo5k-0.,regUser(uint256),258,Exception state,Informational
+92,6298,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefefff
+storage_8: 0x0
+storage_2: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffefefff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_Fomo5k: 0x3
+mem_160 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_Fomo5k)) +
+160: 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fomo5k-0.,fallback,257,Exception state,Informational
+93,6438,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4: 0x1
+storage_2: 0x1
+calldata_Fomo5k_0: 0x132c8c9b00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fomo5k-0.,findFreeReferrer(address),259,Exception state,Informational
+94,6788,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4: 0xdfffffffffffffffffffffdfffffffffffffffffffffffffffffffffffffffff
+calldata_Fomo5k_0: 0x132c8c9b00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_3_+
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4_+
+0,
+_____256): 0x0
+storage_2: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fomo5k-0.,findFreeReferrer(address),270,Exception state,Informational
+95,7014,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_3_+
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4_+
+0,
+_____256): 0x1
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4: 0x20000000000000000000000000000000080040000000000001
+calldata_Fomo5k_0: 0x132c8c9b00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+storage_2: 0x1
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fomo5k-0.,findFreeReferrer(address),275,Exception state,Informational
+96,7491,"storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+calldata_Fomo5k_0: 0x4a4baa8f00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `viewUserReferral(address)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,viewUserReferral(address),284,Integer Overflow ,Warning
+97,7493,"storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Fomo5k_4: 0x7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb
+calldata_Fomo5k_0: 0x4a4baa8f00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `viewUserReferral(address)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,viewUserReferral(address),284,Integer Overflow ,Warning
+98,11221,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+",Fomo5k-0.,fallback,237,Dependence on predictable environment variable,Warning
+99,11766,,A possible transaction order independence vulnerability exists in function fallback. The value or direction of the call statement is determined from a tainted storage location,Fomo5k-0.,fallback,249,Transaction order dependence,Warning
+100,12209,"storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+keccac_3_+
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_calldata_Fomo5k_4,_256): 0x0
+storage_8: 0x0
+storage_2: 0x1
+calldata_Fomo5k_4: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldata_Fomo5k_0: 0x8853b53e00000000000000000000000000000000000000000000000000000000
+calldatasize_Fomo5k: 0x4
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `regUser(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,regUser(uint256),45,Integer Overflow ,Warning
+101,12220,"mem_mem_320 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_Fomo5k)) +
+96: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_8: 0x0
+storage_2: 0x1
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_Fomo5k: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,fallback,45,Integer Overflow ,Warning
+102,12222,"mem_mem_320 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_Fomo5k)) +
+96: 0x7f6fc32c410701432cb30000000000000000000dfffffff3fc0000000000000
+mem_320 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_Fomo5k)) +
+96: 0x7fffffffffffffffffffffffffffffffffffffdaffffffffbfff7fffffffffe0
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_8: 0x0
+storage_2: 0x1
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_Fomo5k: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fomo5k-0.,fallback,45,Integer Overflow ,Warning
+103,4582,"callvalue: 0x93931c13e507cbbcbf74d9eee4fb920eeaef84aa5110428da2eddb017d5ebcdd
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Neutrino81_4: 0xb2c81e3be60b809eebca250ae5f3958de8241f3c0942692d3cecd1fd00743211
+caller: 0xf43414abb5a05c3037910506571e4333e16a4bf4
+storage_2: 0xbcbeb544a5fa3cfc86efaf9a8e1bccc1e95b40b00
+calldata_Neutrino81_0: 0x31e9b2fc00000000000000000000000000000000000000000000000000000000
+calldatasize_Neutrino81: 0x4
+","A possible integer overflow exists in the function `passInterest(address,uint256,uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",NTS_Crypto_Deposit-0.,"passInterest(address,uint256,uint256)",247,Integer Overflow ,Warning
+104,6022,"callvalue: 0x93931c13e507cbbcbf74d9eee4fb920eeaef84aa5110428da2eddb017d5ebcdd
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Neutrino81_4: 0xb2c81e3be60b809eebca250ae5f3958de8241f3c0942692d3cecd1fd00743211
+caller: 0xf43414abb5a05c3037910506571e4333e16a4bf4
+calldata_Neutrino81_0: 0x9cd460b500000000000000000000000000000000000000000000000000000000
+calldatasize_Neutrino81: 0x4
+","A possible integer overflow exists in the function `passRepay(address)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",NTS_Crypto_Deposit-0.,passRepay(address),236,Integer Overflow ,Warning
+105,6136,"callvalue: 0x1000000000000000000000000000000000000000000000000
+calldata_Neutrino81_0: 0xb60d428800000000000000000000000000000000000000000000000000000000
+calldatasize_Neutrino81: 0x4
+","A possible integer overflow exists in the function `fund()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",NTS_Crypto_Deposit-0.,fund(),226,Integer Overflow ,Warning
+106,6144,"The exception is triggered under the following conditions:
+
+calldata_Neutrino81_0: 0xb60d428800000000000000000000000000000000000000000000000000000000
+calldatasize_Neutrino81: 0x4
+storage_8: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",NTS_Crypto_Deposit-0.,fund(),226,Exception state,Informational
+107,2948,"storage_4: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_keccac_0: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-0.,fallback,187,Integer Overflow ,Warning
+108,3611,"storage_4: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+storage_62198580835250178065021801198189918775038380989085965706744441162150748123962: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_MillionMoney: 0x3
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-0.,fallback,202,Integer Overflow ,Warning
+109,4672,"storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xaa108000002bd3db7704854d60910b506d8900000000000000000000000051ac
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_3: 0x1
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-0.,fallback,162,Integer Overflow ,Warning
+110,4897,"mem_288 +
+32*
+Concat(0, Extract(255, 5, 31 + calldatasize_MillionMoney)) +
+96: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-0.,fallback,171,Integer Overflow ,Warning
+111,5693,"The exception is triggered under the following conditions:
+
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_3: 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",MillionMoney-0.,fallback,301,Exception state,Informational
+112,5749,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0xfffffffffffffffffffffffffffffffffffffffffffffefffffffffbffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0xfffffffffffffffffffffffffffffffffffffffffffffefffffffffbffffffff
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+mem_128 +
+32 +
+32*
+Concat(0, Extract(255, 5, 31 + calldatasize_MillionMoney)): 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",MillionMoney-0.,fallback,301,Exception state,Informational
+113,5885,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x1
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+mem_128 +
+32 +
+32*
+Concat(0, Extract(255, 5, 31 + calldatasize_MillionMoney)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",MillionMoney-0.,fallback,301,Exception state,Informational
+114,12198,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+",MillionMoney-0.,fallback,289,Dependence on predictable environment variable,Warning
+115,12528,"mem_mem_288 +
+32*
+Concat(0, Extract(255, 5, 31 + calldatasize_MillionMoney)) +
+96: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-0.,fallback,63,Integer Overflow ,Warning
+116,12530,"mem_288 +
+32*
+Concat(0, Extract(255, 5, 31 + calldatasize_MillionMoney)) +
+96: 0x7fffffffffffffffffffffffffffffffffffffdaffffffffbfff7fffffffffe0
+mem_mem_288 +
+32*
+Concat(0, Extract(255, 5, 31 + calldatasize_MillionMoney)) +
+96: 0x7f6fc32c410701432cb30000000000000000000dfffffff3fc0000000000000
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-0.,fallback,63,Integer Overflow ,Warning
+117,106,"block_number: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_0,_256): 0x1
+","A possible integer underflow exists in the function `fallback`.
+The subtraction may result in a value < 0.",Ethernity5-0.,fallback,12,Integer Underflow,Warning
+118,263,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.number
+",Ethernity5-0.,fallback,13,Dependence on predictable environment variable,Warning
+119,263,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 667
+",Ethernity5-0.,fallback,13,Multiple Calls,Information
+120,667,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.number
+",Ethernity5-0.,fallback,17,Dependence on predictable environment variable,Warning
+121,829,"callvalue: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+block_number: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+retval_667: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+retval_263: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_0,_256): 0xa8795cd3ffffffffffffffffffffffffffffffffffffffffffffffffffffe8f2
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethernity5-0.,fallback,20,Integer Overflow ,Warning
+122,2883,"calldata_ERC20Interface_32 + 4: 0xc290137095b13347e55005a6dc184559e0489f1233480050d0fb4bba17d34179
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_ERC20Interface_4: 0x9c9efb7ae5acd378025256a3945f5859076e809243093d9ecae2636c9fd28979
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xc290137095b13347e55005a6dc184559e0489f1233480050d0fb4bba17d34179
+calldata_ERC20Interface_0: 0xa9059cbb00000000000000000000000000000000000000000000000000000000
+calldatasize_ERC20Interface: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `transfer(address,uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",BBC_TOKEN-0.,"transfer(address,uint256)",26,Integer Overflow ,Warning
+123,492,"callvalue: 0x0
+storage_13: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_2: 0x0
+storage_1: 0x0
+calldatasize_distribution: 0x3
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fast10ETH-0.,fallback,1,Integer Overflow ,Warning
+124,717,"callvalue: 0x0
+storage_6: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_2: 0x0
+storage_1: 0x0
+calldatasize_distribution: 0x3
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fast10ETH-0.,fallback,222,Integer Overflow ,Warning
+125,797,"callvalue: 0xfffffffffffffffffffffffffffffffffffffffffffffffbffffffffffdfffff
+storage_13: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_2: 0xfffffffffffffffffffffffffffffffffffffffffffffffbffffffffffdfffff
+storage_1: 0xfffffffffffffffffffffffffffffffffffffffffffffffbffffffffffdfffff
+calldatasize_distribution: 0x3
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer underflow exists in the function `fallback`.
+The subtraction may result in a value < 0.",Fast10ETH-0.,fallback,224,Integer Underflow,Warning
+126,804,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_2: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_distribution: 0x3
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fast10ETH-0.,fallback,1,Integer Overflow ,Warning
+127,3078,"storage_4: 0x2c60dbd9ee02041b8124fb179125c4475ec6a654a9166569034d4e6765dbdfdb
+callvalue: 0xeb5f10f9e86264d38426db541f0ddab51e64ab70fda005c01eade2f53e1f5522
+storage_2: 0xeb5f10f9e86264d38426db541f0ddab51e64ab70fda005c01eade2f53e1f5522
+storage_1: 0xeb5f10f9e86264d38426db541f0ddab51e64ab70fda005c01eade2f53e1f5522
+calldatasize_distribution: 0x3
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Fast10ETH-0.,fallback,131,Integer Overflow ,Warning
+128,3404,"The exception is triggered under the following conditions:
+
+calldata_distribution_32 + 4: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4: 0x0
+calldata_distribution_0: 0x2646b17600000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,"getPaimentStatus(address,uint256)",303,Exception state,Informational
+129,3427,"The exception is triggered under the following conditions:
+
+calldata_distribution_32 + 4: 0x0
+storage_keccac_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4 +
+calldata_distribution_32 + 4: 0x0
+storage_13: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4: 0x1
+calldata_distribution_0: 0x2646b17600000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,"getPaimentStatus(address,uint256)",303,Exception state,Informational
+130,3492,"The exception is triggered under the following conditions:
+
+calldata_distribution_4: 0x0
+storage_13: 0x0
+calldata_distribution_0: 0x3f66d16000000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,_function_0x3f66d160,174,Exception state,Informational
+131,3599,"The exception is triggered under the following conditions:
+
+calldata_distribution_32 + 4: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4: 0x0
+calldata_distribution_0: 0x466c01b800000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,_function_0x466c01b8,178,Exception state,Informational
+132,3703,"The exception is triggered under the following conditions:
+
+calldata_distribution_32 + 4: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4: 0x0
+calldata_distribution_0: 0x6071105800000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,"getUserDeposit(address,uint256)",291,Exception state,Informational
+133,3726,"The exception is triggered under the following conditions:
+
+calldata_distribution_32 + 4: 0x0
+storage_keccac_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4 +
+calldata_distribution_32 + 4: 0x0
+storage_13: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4: 0x1
+calldata_distribution_0: 0x6071105800000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,"getUserDeposit(address,uint256)",291,Exception state,Informational
+134,4075,"The exception is triggered under the following conditions:
+
+calldata_distribution_32 + 4: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4: 0x0
+calldata_distribution_0: 0x631b052000000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,"getPaimentTime(address,uint256)",303,Exception state,Informational
+135,4098,"The exception is triggered under the following conditions:
+
+calldata_distribution_32 + 4: 0x0
+storage_keccac_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4 +
+calldata_distribution_32 + 4: 0x0
+storage_13: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_distribution_4: 0x1
+calldata_distribution_0: 0x631b052000000000000000000000000000000000000000000000000000000000
+calldatasize_distribution: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Fast10ETH-0.,"getPaimentTime(address,uint256)",302,Exception state,Informational
+136,4002,"storage_keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe600
+timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5ff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+calldatasize_Etrix: 0x3
+storage_72984518589826227531578991903372844090998219903258077796093728159832249402700: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Etrix-0.,fallback,318,Integer Overflow ,Warning
+137,4020,"timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+calldatasize_Etrix: 0x3
+storage_72984518589826227531578991903372844090998219903258077796093728159832249402700: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Etrix-0.,fallback,320,Integer Overflow ,Warning
+138,4860,"storage_keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb8c200
+timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb8c200
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+storage_72984518589826227531578991903372844090998219903258077796093728159832249402700: 0x0
+storage_88487752464189919832885636063100331058159354328900033104695085031828526906701: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_Etrix: 0x3
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Etrix-0.,fallback,334,Integer Overflow ,Warning
+139,5749,"storage_10826069350932453726649810804370223703603575740452467603846993781924376990701: 0xaa108000002bd3db7704854d60910b506d8900000000000000000000000051ac
+storage_6: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_5 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_10826069350932453726649810804370223703603575740452467603846993781924376990701,
+_____256): 0x1
+storage_10826069350932453726649810804370223703603575740452467603846993781924376990700: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_Etrix: 0x3
+storage_4 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_1,_256): 0x2
+storage_72984518589826227531578991903372844090998219903258077796093728159832249402700: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Etrix-0.,fallback,124,Integer Overflow ,Warning
+140,18514,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+",Etrix-0.,fallback,426,Dependence on predictable environment variable,Warning
+141,18879,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+",Etrix-0.,fallback,430,Dependence on predictable environment variable,Warning
+142,19146,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+- block.timestamp
+",Etrix-0.,fallback,438,Dependence on predictable environment variable,Warning
+143,19575,"storage_1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_10826069350932453726649810804370223703603575740452467603846993781924376990701: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_6: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_10826069350932453726649810804370223703603575740452467603846993781924376990700: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_Etrix: 0x3
+storage_4 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_1,_256): 0x2
+storage_72984518589826227531578991903372844090998219903258077796093728159832249402700: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Etrix-0.,fallback,259,Integer Overflow ,Warning
+144,19617,"storage_1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_10826069350932453726649810804370223703603575740452467603846993781924376990701: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_6: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_10826069350932453726649810804370223703603575740452467603846993781924376990700: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_Etrix: 0x3
+storage_4 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_1,_256): 0x1
+storage_72984518589826227531578991903372844090998219903258077796093728159832249402700: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Etrix-0.,fallback,266,Integer Overflow ,Warning
+145,715,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 858
+Call at address: 858
+",3DayProfits-0.,fallback,77,Multiple Calls,Information
+146,715,,A possible transaction order independence vulnerability exists in function fallback. The value or direction of the call statement is determined from a tainted storage location,3DayProfits-0.,fallback,77,Transaction order dependence,Warning
+147,2458,"calldata_ThreeDayProfits_32 + 4: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_ThreeDayProfits_4: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_8: 0x0
+caller: 0x0
+calldata_ThreeDayProfits_0: 0xd3cde1a500000000000000000000000000000000000000000000000000000000
+calldatasize_ThreeDayProfits: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `updateReferral(address,uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",3DayProfits-0.,"updateReferral(address,uint256)",203,Integer Overflow ,Warning
+148,2471,"The exception is triggered under the following conditions:
+
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_ThreeDayProfits_4: 0x1
+calldata_ThreeDayProfits_32 + 4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_8: 0x0
+caller: 0x0
+calldata_ThreeDayProfits_0: 0xd3cde1a500000000000000000000000000000000000000000000000000000000
+calldatasize_ThreeDayProfits: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",3DayProfits-0.,"updateReferral(address,uint256)",203,Exception state,Informational
+149,2556,"The exception is triggered under the following conditions:
+
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x83d7a6861cfe14f6aba3dd849f7d4493a7ff8d8f5e3f5d7f16b55867f7cff1
+storage_5: 0x3899804dea54ca4d03397907e4785dd0a8ba702764ce148fdbc7a96b1bfdde08
+timestamp: 0x83d7a6861cfe14f6aba3dd849f7d4493a7ff8d8f5e3f5d7f16b55867f7cff1
+calldata_ThreeDayProfits_0: 0x3ccfd60b00000000000000000000000000000000000000000000000000000000
+calldatasize_ThreeDayProfits: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",3DayProfits-0.,withdraw(),187,Exception state,Informational
+150,4255,"The exception is triggered under the following conditions:
+
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+callvalue: 0x0
+timestamp: 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_4: 0x0
+calldata_ThreeDayProfits_0: 0xc09f80e00000000000000000000000000000000000000000000000000000000
+calldatasize_ThreeDayProfits: 0x4
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",3DayProfits-0.,fallback,203,Exception state,Informational
+151,2948,"storage_4: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_keccac_0: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+calldatasize_ETHRUN: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethrun-0.,fallback,168,Integer Overflow ,Warning
+152,3611,"storage_4: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+storage_62198580835250178065021801198189918775038380989085965706744441162150748123962: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_ETHRUN: 0x3
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethrun-0.,fallback,179,Integer Overflow ,Warning
+153,4672,"storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xaa108000002bd3db7704854d60910b506d8900000000000000000000000051ac
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_3: 0x1
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_ETHRUN: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethrun-0.,fallback,147,Integer Overflow ,Warning
+154,4897,"mem_288 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_ETHRUN)) +
+96: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_ETHRUN: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethrun-0.,fallback,149,Integer Overflow ,Warning
+155,5693,"The exception is triggered under the following conditions:
+
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_ETHRUN: 0x3
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_3: 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Ethrun-0.,fallback,286,Exception state,Informational
+156,5749,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_ETHRUN: 0x3
+mem_128 +
+32 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_ETHRUN)): 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Ethrun-0.,fallback,286,Exception state,Informational
+157,5885,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x1
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+mem_128 +
+32 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_ETHRUN)): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_ETHRUN: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Ethrun-0.,fallback,289,Exception state,Informational
+158,12198,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+",Ethrun-0.,fallback,265,Dependence on predictable environment variable,Warning
+159,12528,"mem_mem_288 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_ETHRUN)) +
+96: 0x8421003f084001f4210815cf88407c00000000000000037c1d000e8d178001f
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_ETHRUN: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethrun-0.,fallback,44,Integer Overflow ,Warning
+160,12530,"mem_mem_288 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_ETHRUN)) +
+96: 0x7f6fc32c410701432cb30000000000000000000dfffffff3fc0000000000000
+mem_288 +
+32*Concat(0, Extract(255, 5, 31 + calldatasize_ETHRUN)) +
+96: 0x7fffffffffffffffffffffffffffffffffffffdaffffffffbfff7fffffffffe0
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0x1
+storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x0
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_ETHRUN: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethrun-0.,fallback,44,Integer Overflow ,Warning
+161,3431,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+callvalue: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+calldata_OwnsArt_0: 0xd0e30db000000000000000000000000000000000000000000000000000000000
+calldatasize_OwnsArt: 0x4
+","A possible integer overflow exists in the function `deposit()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",0xowns_art-0.,deposit(),3,Integer Overflow ,Warning
+162,106,"block_number: 0x0
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_0,_256): 0x1
+","A possible integer underflow exists in the function `fallback`.
+The subtraction may result in a value < 0.",Ethernity5-1.,fallback,12,Integer Underflow,Warning
+163,263,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.number
+",Ethernity5-1.,fallback,13,Dependence on predictable environment variable,Warning
+164,263,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 667
+",Ethernity5-1.,fallback,13,Multiple Calls,Information
+165,667,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.number
+",Ethernity5-1.,fallback,17,Dependence on predictable environment variable,Warning
+166,829,"callvalue: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+block_number: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+retval_667: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+retval_263: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_0,_256): 0xa8795cd3ffffffffffffffffffffffffffffffffffffffffffffffffffffe8f2
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Ethernity5-1.,fallback,20,Integer Overflow ,Warning
+167,3815,"storage_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+extcodesize: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_5,_256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+callvalue: 0xb1a2bc2ec50000
+calldatasize_SmartMatrixForsage: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Forsage_Smartway-0.,fallback,180,Integer Overflow ,Warning
+168,3896,"storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_5,_256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+extcodesize: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_5,_256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+callvalue: 0xb1a2bc2ec50000
+calldatasize_SmartMatrixForsage: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Forsage_Smartway-0.,fallback,180,Integer Overflow ,Warning
+169,9317,"storage_1 + keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+extcodesize: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_5,_256): 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+callvalue: 0xb1a2bc2ec50000
+calldatasize_SmartMatrixForsage: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Forsage_Smartway-0.,fallback,3,Integer Overflow ,Warning
+170,518,"block_number: 0xe58141feffeb2353fee8c10cb914dd7a8b0a83c244b22132ad451c07c217dbc5
+callvalue: 0x20f459e0c00a4aa9810bf3eca71615b087b438f8fafb7e003155020c600713f8
+retval_357: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_EasyInvest6_0: 0xaac136200000000000000000000000000000000000000000000000000000000
+calldatasize_EasyInvest6: 0x4
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Easy_Invest_6%-0.,fallback,45,Integer Overflow ,Warning
+171,2431,"storage_keccac_0: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_1: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-1.,fallback,158,Integer Overflow ,Warning
+172,3094,"storage_keccac_0: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0x7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xff00
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+storage_62198580835250178065021801198189918775038380989085965706744441162150748123962: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_MillionMoney: 0x3
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-1.,fallback,169,Integer Overflow ,Warning
+173,3959,"storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xaa108000002bd3db7704854d60910b506d8900000000000000000000000051ac
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_0: 0x1
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",MillionMoney-1.,fallback,128,Integer Overflow ,Warning
+174,5098,"The exception is triggered under the following conditions:
+
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0x0
+storage_0: 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",MillionMoney-1.,fallback,220,Exception state,Informational
+175,5154,"The exception is triggered under the following conditions:
+
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_38357942052654430511805280289652572966474101887281969759642760585367641502969,
+_____256): 0xfffffffffffffffffffffffffffffffbffffffffffbfffffffffffffffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0: 0xfffffffffffffffffffffffffffffffbffffffffffbfffffffffffffffffffff
+storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_38357942052654430511805280289652572966474101887281969759642760585367641502968: 0xff00
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+calldatasize_MillionMoney: 0x3
+mem_128 +
+32 +
+32*
+Concat(0, Extract(255, 5, 31 + calldatasize_MillionMoney)): 0x0
+storage_9247535584797915451057180664748820695544591120644449140157971996739901653371: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",MillionMoney-1.,fallback,220,Exception state,Informational
+176,8226,,"In the function `fallback` the following predictable state variables are used to determine Ether recipient:
+- block.timestamp
+",MillionMoney-1.,fallback,202,Dependence on predictable environment variable,Warning
+177,6747,"calldata_TotalMoney_4: 0x1555555555555555555555555555555555555555555555555555555555555556
+calldata_TotalMoney_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",TotalMoney-0.,calculateTokensReceived(uint256),380,Integer Overflow ,Warning
+178,6770,"The exception is triggered under the following conditions:
+
+callvalue: 0x8000000000000000000000800000000000000000000000000000000000000005
+storage_6: 0x0
+caller: 0x0
+calldata_TotalMoney_0: 0x760a8c2a00000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",TotalMoney-0.,setActive(),381,Exception state,Informational
+179,6887,"storage_7: 0xa02201a801f48c168047c639513b71f612015f30fc8885bd4c73a10473fd286e
+calldata_TotalMoney_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+calldata_TotalMoney_4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",TotalMoney-0.,calculateTokensReceived(uint256),327,Integer Overflow ,Warning
+180,6903,"storage_7_EXP_2: 0x9a4109612294619e2fbdddf0857c0482c15b7240409da018bf39e487254430e9
+calldata_TotalMoney_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+calldata_TotalMoney_4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",TotalMoney-0.,calculateTokensReceived(uint256),324,Integer Overflow ,Warning
+181,6940,"storage_7_EXP_2: 0x318001e554d05e492de8bde6776533adced22d00609a6bd33cb11c040b5081
+calldata_TotalMoney_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+calldata_TotalMoney_4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",TotalMoney-0.,calculateTokensReceived(uint256),316,Integer Overflow ,Warning
+182,7022,"calldata_TotalMoney_4: 0xfffffffffffffffffffffffffffffffffffffffffffffffff38101f0389c0000
+storage_7: 0xfffffffffffffffffffffffffffffffffffffffffffffffff38101f0389c0000
+calldata_TotalMoney_0: 0x2260937300000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateEthereumReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",TotalMoney-0.,calculateEthereumReceived(uint256),337,Integer Overflow ,Warning
+183,7037,"storage_7: 0xfffffffffffffffffffffffffffffffffffffffffffffffff90fb0802c080000
+calldata_TotalMoney_0: 0x4b75033400000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `sellPrice()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",TotalMoney-0.,sellPrice(),337,Integer Overflow ,Warning
+184,7062,"calldata_TotalMoney_4: 0xfffffffffffffffffffffffffffffffffffffffffffffffff81f7000000c0000
+storage_7: 0xfffffffffffffffffffffffffffffffffffffffffffffffff81f7000000c0000
+calldata_TotalMoney_0: 0x2260937300000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `calculateEthereumReceived(uint256)`.
+The subtraction may result in a value < 0.",TotalMoney-0.,calculateEthereumReceived(uint256),358,Integer Underflow,Warning
+185,7121,"calldata_TotalMoney_4: 0x1000000000000000000000000000000000de0b6b3a763ffff
+1000000000000000000 + calldata_TotalMoney_4_EXP_2: 0x1000000000000000000000000000000001bc16d674ec7fffe
+storage_7: 0x1000000000000000000000000000000000de0b6b3a763ffff
+calldata_TotalMoney_0: 0x2260937300000000000000000000000000000000000000000000000000000000
+calldatasize_TotalMoney: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `calculateEthereumReceived(uint256)`.
+The subtraction may result in a value < 0.",TotalMoney-0.,calculateEthereumReceived(uint256),358,Integer Underflow,Warning
+186,2241,,A possible transaction order independence vulnerability exists in function cashOut(). The value or direction of the call statement is determined from a tainted storage location,Ternary-0.,cashOut(),118,Transaction order dependence,Warning
+187,2241,,The return value of an external call is not checked. Note that execution continue even if the called contract throws.,Ternary-0.,cashOut(),118,Unchecked CALL return value,Informational
+188,3523,"The exception is triggered under the following conditions:
+
+storage_3: 0x0
+callvalue: 0x0
+storage_11: 0xff00
+storage_4: 0x0
+calldatasize_NTS80: 0x3
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",NTS_Crypto_Deposit-2.,fallback,157,Exception state,Informational
+189,423,"balance_at_1461501637330902918203684832716283019655932542975 & 0: 0x0
+callvalue: 0x1
+calldatasize_apexONE: 0x3
+","A possible integer underflow exists in the function `fallback`.
+The subtraction may result in a value < 0.",apexONE-0.,fallback,41,Integer Underflow,Warning
+190,8495,"calldata_apexONE_4: 0x1555555555555555555555555555555555555555555555555555555555555556
+calldata_apexONE_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_apexONE: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",apexONE-0.,calculateTokensReceived(uint256),624,Integer Overflow ,Warning
+191,8518,"The exception is triggered under the following conditions:
+
+calldata_apexONE_4: 0x8000000000000000000000800000000000000000000000000000000000000005
+calldata_apexONE_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_apexONE: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",apexONE-0.,calculateTokensReceived(uint256),625,Exception state,Informational
+192,8635,"storage_11: 0xa02201a801f48c168047c639513b71f612015f30fc8885bd4c73a10473fd286e
+calldata_apexONE_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_apexONE: 0x4
+calldata_apexONE_4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",apexONE-0.,calculateTokensReceived(uint256),559,Integer Overflow ,Warning
+193,8651,"storage_11_EXP_2: 0x9a4109612294619e2fbdddf0857c0482c15b7240409da018bf39e487254430e9
+calldata_apexONE_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_apexONE: 0x4
+calldata_apexONE_4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",apexONE-0.,calculateTokensReceived(uint256),557,Integer Overflow ,Warning
+194,8688,"storage_11_EXP_2: 0x318001e554d05e492de8bde6776533adced22d00609a6bd33cb11c040b5081
+calldata_apexONE_0: 0x10d0ffdd00000000000000000000000000000000000000000000000000000000
+calldatasize_apexONE: 0x4
+calldata_apexONE_4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `calculateTokensReceived(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",apexONE-0.,calculateTokensReceived(uint256),551,Integer Overflow ,Warning
+195,8785,"storage_11: 0xfffffffffffffffffffffffffffffffffffffffffffffffff90fb0802c080000
+calldata_apexONE_0: 0x4b75033400000000000000000000000000000000000000000000000000000000
+calldatasize_apexONE: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `sellPrice()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",apexONE-0.,sellPrice(),579,Integer Overflow ,Warning
+196,1460,"The exception is triggered under the following conditions:
+
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Storage_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+timestamp: 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+calldata_Storage_0: 0x6f77926b00000000000000000000000000000000000000000000000000000000
+calldatasize_Storage: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Leprechaun-0.,getUser(address),58,Exception state,Informational
+197,1494,"storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Storage_4: 0x8000000000000000000000000000000000000000000000000000000000000000
+calldata_Storage_0: 0x6f77926b00000000000000000000000000000000000000000000000000000000
+calldatasize_Storage: 0x4
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Storage_4: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `getUser(address)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Leprechaun-0.,getUser(address),44,Integer Overflow ,Warning
+198,1517,"The exception is triggered under the following conditions:
+
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Storage_4: 0x8000000000000000000000000000000000000000000000000000000000000000
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Storage_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+timestamp: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_Storage_0: 0x6f77926b00000000000000000000000000000000000000000000000000000000
+calldatasize_Storage: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Leprechaun-0.,getUser(address),45,Exception state,Informational
+199,3093,"callvalue: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_6: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+calldatasize_Slugroad: 0x3
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Slugroad-0.,fallback,597,Integer Overflow ,Warning
+200,3106,"The exception is triggered under the following conditions:
+
+storage_6: 0x1
+callvalue: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldatasize_Slugroad: 0x3
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Slugroad-0.,fallback,597,Exception state,Informational
+201,5489,,This contract executes a message call to to another contract. Make sure that the called contract is trusted and does not execute user-supplied code.,Slugroad-0.,PayThrone(),448,Message call to external contract,Informational
+202,290,,The return value of an external call is not checked. Note that execution continue even if the called contract throws.,Easy_Invest-0.,fallback,42,Unchecked CALL return value,Informational
+203,434,"callvalue: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+block_number: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Easy_Invest-0.,fallback,46,Integer Overflow ,Warning
+204,2456,"timestamp: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+storage_7: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_5: 0x1
+calldatasize_Smartex: 0x3
+storage_keccac_0: 0x0
+storage_105409183525425523237923285454331214386340807945685310246717412709691342439136: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smartex-0.,fallback,132,Integer Overflow ,Warning
+205,2640,"storage_7: 0xe6089257c80ac0cbe60d5926ff262844c7005edbab82a162281118017d351c97
+storage_keccac_0: 0x83ffb3569638cea3622d597040d78d7ab7ae5c8a2d8bbb012cad3fb961bad806
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_5: 0x1
+calldatasize_Smartex: 0x3
+storage_105409183525425523237923285454331214386340807945685310246717412709691342439136: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smartex-0.,fallback,133,Integer Overflow ,Warning
+206,3482,"storage_24465873643947496235832446106509767096567058095563226156125564318740882468607: 0xaa108000002bd3db7704854d60910b506d8900000000000000000000000051ac
+storage_1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_24465873643947496235832446106509767096567058095563226156125564318740882468607,
+_____256): 0x0
+storage_6: 0x1
+storage_5: 0x1
+calldatasize_Smartex: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_105409183525425523237923285454331214386340807945685310246717412709691342439136: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Smartex-0.,fallback,112,Integer Overflow ,Warning
+207,4803,"The exception is triggered under the following conditions:
+
+storage_24465873643947496235832446106509767096567058095563226156125564318740882468607: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_5: 0x1
+calldatasize_Smartex: 0x3
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_24465873643947496235832446106509767096567058095563226156125564318740882468607,
+_____256): 0x0
+storage_6: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_105409183525425523237923285454331214386340807945685310246717412709691342439136: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smartex-0.,fallback,148,Exception state,Informational
+208,4993,"The exception is triggered under the following conditions:
+
+storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_keccac_storage_24465873643947496235832446106509767096567058095563226156125564318740882468607,
+_____256): 0x1
+storage_24465873643947496235832446106509767096567058095563226156125564318740882468607: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_6: 0x1
+storage_1: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_5: 0x1
+calldatasize_Smartex: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_105409183525425523237923285454331214386340807945685310246717412709691342439136: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Smartex-0.,fallback,148,Exception state,Informational
+209,3305,"The exception is triggered under the following conditions:
+
+calldata_apexSolids_4: 0x6
+calldata_apexSolids_0: 0xe3fd8c200000000000000000000000000000000000000000000000000000000
+calldatasize_apexSolids: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",apexONE-1.,getSolid(uint256),254,Exception state,Informational
+210,3719,"The exception is triggered under the following conditions:
+
+calldata_apexSolids_4: 0x6
+calldata_apexSolids_0: 0x1c60df0600000000000000000000000000000000000000000000000000000000
+calldatasize_apexSolids: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",apexONE-1.,_function_0x1c60df06,149,Exception state,Informational
+211,5305,,"Function purchase(uint256,address) retrieves the transaction origin (tx.origin) using the ORIGIN opcode. Use msg.sender instead.
+See also: https://solidity.readthedocs.io/en/develop/security-considerations.html#tx-origin",apexONE-1.,"purchase(uint256,address)",58,Use of tx.origin,Warning
+212,6956,"storage_0 + 12 + 6*calldata_apexSolids_4: 0x20
+timestamp: 0x0
+storage_4 + 12 + 6*calldata_apexSolids_4: 0x1
+calldata_apexSolids_4: 0x5
+calldata_apexSolids_0: 0xe3fd8c200000000000000000000000000000000000000000000000000000000
+calldatasize_apexSolids: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `getSolid(uint256)`.
+The subtraction may result in a value < 0.",apexONE-1.,getSolid(uint256),334,Integer Underflow,Warning
+213,7940,"storage_keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_apexSolids_32_+_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_apexSolids_32 + 4: 0xffffffffffffffffffffffffffffffffffffffff
+storage_keccac_calldata_apexSolids_32_+_36: 0xffffffffffffffffffffffffffffffffffffffff00
+calldata_apexSolids_4: 0xffffffffffffffffffffffffffffffffffffffff
+calldata_apexSolids_0: 0x23b872dd00000000000000000000000000000000000000000000000000000000
+calldatasize_apexSolids: 0x4
+extcodesize: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `transferFrom(address,address,uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",apexONE-1.,"transferFrom(address,address,uint256)",478,Integer Overflow ,Warning
+214,1012,"storage_11: 0xfffffffffffffffffffffffffffffffffffffffffffffffffffc390d903f0000
+storage_4: 0x1fc00000000000
+storage_13: 0x14000000000002000002101d7b930c24961198412b0f6a936c292253a164
+timestamp: 0x1a5e0000000002a30002b83ede6a5c823bd83239ea44d3015b183ac141459200
+storage_12: 0x0
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+callvalue: 0x2386f26fc10000
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",5ETH-0.,fallback,112,Integer Overflow ,Warning
+215,1195,"storage_8: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+retval_1162: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_7: 0x1
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_11: 0xffffffffffffffffffffffffffffffffffffffffffffffffffdc790d903effff
+storage_13: 0x11018b3b21806400000890480844cc8e69c60faa245c8c0440025fcbcc2b
+timestamp: 0x166b890e74aac3d6000b4a36f6e6b3adc0729da6cef002979a63214b2dabf980
+storage_12: 0x0
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+callvalue: 0x2386f26fc10000
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",5ETH-0.,fallback,1,Integer Overflow ,Warning
+216,1702,"storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_7: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_4: 0x2386f26fc10000
+storage_13: 0xa00e6b42e380a0004812091db79585c1523fcedb410000000802000de323
+timestamp: 0xd3030268aeee12f05f03c704ad879fd65def1f360e3180000a8ea3124ef3fe00
+storage_12: 0x0
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+callvalue: 0x2386f26fc10000
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",5ETH-0.,fallback,136,Integer Overflow ,Warning
+217,1721,"storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_7: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_11: 0xffffffffffffffffffffffffffffffffffffffffffffffffffdc790d903effff
+storage_13: 0x11018b3b21806400000890480844cc8e69c60faa245c8c0440025fcbcc2b
+timestamp: 0x166b890e74aac3d6000b4a36f6e6b3adc0729da6cef002979a63214b2dabf980
+storage_12: 0x0
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+callvalue: 0x2386f26fc10000
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",5ETH-0.,fallback,138,Integer Overflow ,Warning
+218,1737,"storage_14: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_106974352148254247443002424860746200082415828814647159066518186632126350659435: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+retval_1162: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_7: 0x1
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_4: 0x2386f26fc10000
+storage_13: 0xa00e6b42e380a0004812091db79585c1523fcedb410000000802000de323
+timestamp: 0xd3030268aeee12f05f03c704ad879fd65def1f360e3180000a8ea3124ef3fe00
+storage_12: 0x0
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+storage_106974352148254247443002424860746200082415828814647159066518186632126350659436: 0x1
+callvalue: 0x2386f26fc10000
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",5ETH-0.,fallback,139,Integer Overflow ,Warning
+219,1995,"The exception is triggered under the following conditions:
+
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_6 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xfc00
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd
+storage_7: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_4: 0x2386f26fc10000
+storage_13: 0xa554a0094c6d81d6110004c1efeac04000000000940000001214000de35d
+timestamp: 0xd9f710fc42425eabb7698645adcbfc7460000000c31e000017d55e124f407a00
+storage_12: 0x0
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+callvalue: 0x2386f26fc10000
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",5ETH-0.,fallback,141,Exception state,Informational
+220,3154,"The exception is triggered under the following conditions:
+
+callvalue: 0x80000000000000000000000000000000000000000000000000b1a2bc3ec50000
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+storage_6 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xfc00
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_7: 0x0
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_4: 0x80000000000000000000000000000000000000000000000000b1a2bc3ec50000
+storage_13: 0x448f04d6108008805394048202b61846b0d63142f23fe131c0c3a1ad84b4
+timestamp: 0x5a628ce036c0cb352e2fa3f166931101322261f1c25f376317a1e9a64274ff00
+storage_12: 0x0
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",5ETH-0.,fallback,170,Exception state,Informational
+221,4123,"The exception is triggered under the following conditions:
+
+storage_6 +
+keccac_1461501637330902918203684832716283019655932542975_&
+calldata_Eth5iov__2_4: 0xfc00
+calldata_Eth5iov__2_0: 0x6f7bc9be00000000000000000000000000000000000000000000000000000000
+calldatasize_Eth5iov__2: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",5ETH-0.,_function_0x6f7bc9be,24,Exception state,Informational
+222,7310,"timestamp: 0x0
+storage_12: 0x1
+storage_10: 0x0
+storage_2: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+calldatasize_Eth5iov__2: 0x3
+callvalue: 0x2386f26fc10000
+","A possible integer underflow exists in the function `fallback`.
+The subtraction may result in a value < 0.",5ETH-0.,fallback,280,Integer Underflow,Warning
+223,8094,"storage_7: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+retval_7969: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_8: 0x0
+storage_10: 0xff00
+storage_2: 0x0
+caller: 0x0
+calldata_Eth5iov__2_0: 0x4036585200000000000000000000000000000000000000000000000000000000
+calldatasize_Eth5iov__2: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `roundStart()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",5ETH-0.,roundStart(),277,Integer Overflow ,Warning
+224,10110,"storage_8: 0x9d50368088b20a07c07fb81f800800000000e78e2dfa35e3be07e039bbfccbdd
+storage_10: 0xff00
+storage_2: 0x0
+caller: 0x0
+calldata_Eth5iov__2_0: 0x4036585200000000000000000000000000000000000000000000000000000000
+calldatasize_Eth5iov__2: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `roundStart()`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",5ETH-0.,roundStart(),3,Integer Overflow ,Warning
+225,1817,"calldata_WCG_4: 0x200000000000000000000000000000000000000000000000000000000000000
+storage_0: 0x0
+caller: 0x0
+calldata_WCG_0: 0x4ae931cc00000000000000000000000000000000000000000000000000000000
+calldatasize_WCG: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `setPresellUpToTime(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",We_Cooperate_Growth-0.,setPresellUpToTime(uint256),131,Integer Overflow ,Warning
+226,1819,"timestamp: 0x29189e3775e07a568b57c32affec278f748807883841d3e9675e40904a48aa80
+calldata_WCG_4: 0x86333caec32ab3cd6168662afd0bebbd5187de81937a720a45887a4ba94a43
+storage_0: 0x0
+caller: 0x0
+calldata_WCG_0: 0x4ae931cc00000000000000000000000000000000000000000000000000000000
+calldatasize_WCG: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `setPresellUpToTime(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",We_Cooperate_Growth-0.,setPresellUpToTime(uint256),131,Integer Overflow ,Warning
+227,2329,"The exception is triggered under the following conditions:
+
+calldata_WCG_4: 0x0
+storage_1: 0x0
+calldata_WCG_0: 0xbbd6dd4800000000000000000000000000000000000000000000000000000000
+calldatasize_WCG: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",We_Cooperate_Growth-0.,getUserTokenInfos(uint256),66,Exception state,Informational
+228,380,"SOLVER OUTPUT:
+extcodesize: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_JIincInterfaceForForwarder_0: 0x7fcd60f00000000000000000000000000000000000000000000000000000000
+calldatasize_JIincInterfaceForForwarder: 0x4
+","In the function `fallback` a non-zero amount of Ether is sent to an address taken from storage slot 1.
+There is a check on storage index 1. This storage slot can be written to by calling the function `setup(address)`.
+It seems that this function can be called without restrictions.",Fomo3D-4.,fallback,114,Ether send,Warning
+229,380,,"This contract executes a message call to an address found at storage slot 1. This storage slot can be written to by calling the function `setup(address)`. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Fomo3D-4.,fallback,114,Message call to external contract,Warning
+230,380,,A possible transaction order independence vulnerability exists in function fallback. The value or direction of the call statement is determined from a tainted storage location,Fomo3D-4.,fallback,114,Transaction order dependence,Warning
+231,2728,,"This contract executes a message call to an address provided as a function argument. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Fomo3D-4.,startMigration(address),152,Message call to external contract,Warning
+232,3408,,"This contract executes a message call to an address found at storage slot 1. This storage slot can be written to by calling the function `setup(address)`. Generally, it is not recommended to call user-supplied addresses using Solidity's call() construct. Note that attackers might leverage reentrancy attacks to exploit race conditions or manipulate this contract's state.",Fomo3D-4.,deposit(),122,Message call to external contract,Warning
+233,3408,,A possible transaction order independence vulnerability exists in function deposit(). The value or direction of the call statement is determined from a tainted storage location,Fomo3D-4.,deposit(),122,Transaction order dependence,Warning
+234,827,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2480
+Call at address: 2115
+Call at address: 2115
+Call at address: 1791
+Call at address: 1599
+Call at address: 2480
+Call at address: 1599
+Call at address: 2480
+Call at address: 2115
+Call at address: 2115
+Call at address: 1791
+Call at address: 1599
+Call at address: 2480
+Call at address: 1599
+",Grandiose-0.,fallback,98,Multiple Calls,Information
+235,860,"storage_7: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+callvalue: 0x8000000000000000000000000000000000000000000000000020000000000000
+retval_827: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_9: 0x0
+caller: 0x0
+storage_0: 0xffffffffffffffffffffffffffffffffffffffff00
+calldatasize_Grandiose: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,fallback,1,Integer Overflow ,Warning
+236,1261,"callvalue: 0xcacb402a20200a09822135dfffffeff922203dffe9ef89df702387f26fc88c13
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xea439ff13bdff5fd84040010000000015ddfc2000c04018f81d8780d90138c40
+storage_42968895388377710148156740012165625056958882193801299486065383385270288799432: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+retval_827: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_9: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+calldatasize_Grandiose: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,fallback,114,Integer Overflow ,Warning
+237,1280,"storage_2 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+callvalue: 0x8000000000000000000000000000000000000000000000000020000000000000
+storage_42968895388377710148156740012165625056958882193801299486065383385270288799432: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+retval_827: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_9: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+calldatasize_Grandiose: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,fallback,116,Integer Overflow ,Warning
+238,1491,"storage_2: 0xea439ff13bdff5fd84040010000000015ddfc2000c04018f81d8780d90138c40
+callvalue: 0xcacb402a20200a09822135dfffffeff922203dffe9ef89df702387f26fc88c13
+storage_42968895388377710148156740012165625056958882193801299486065383385270288799432: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+retval_827: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_9: 0x0
+caller: 0xffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+calldatasize_Grandiose: 0x3
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x0
+","A possible integer overflow exists in the function `fallback`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,fallback,119,Integer Overflow ,Warning
+239,1599,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2480
+",Grandiose-0.,fallback,120,Multiple Calls,Information
+240,1791,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2115
+Call at address: 2115
+",Grandiose-0.,fallback,125,Multiple Calls,Information
+241,1791,,A possible transaction order independence vulnerability exists in function fallback. The value or direction of the call statement is determined from a tainted storage location,Grandiose-0.,fallback,125,Transaction order dependence,Warning
+242,2480,,A possible transaction order independence vulnerability exists in function fallback. The value or direction of the call statement is determined from a tainted storage location,Grandiose-0.,fallback,135,Transaction order dependence,Warning
+243,3780,"calldata_Grandiose_4: 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc
+calldata_Grandiose_0: 0xa805bfef00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0xa805bfef`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,_function_0xa805bfef,61,Integer Overflow ,Warning
+244,4780,,"Multiple sends exist in one transaction, try to isolate each external call into its own transaction. As external calls can fail accidentally or deliberately.
+Consecutive calls: 
+Call at address: 2480
+Call at address: 2115
+Call at address: 2115
+Call at address: 1791
+Call at address: 1599
+",Grandiose-0.,fallback,194,Multiple Calls,Information
+245,5537,"storage_7: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+caller: 0x0
+calldata_Grandiose_0: 0xa805bfef00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Grandiose_cpy: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0xa805bfef`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,_function_0xa805bfef,1,Integer Overflow ,Warning
+246,5642,"The exception is triggered under the following conditions:
+
+calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+caller: 0x0
+calldata_Grandiose_0: 0xa805bfef00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+mem_128 + 32 + 32*calldata_Grandiose_4 + calldata_Grandiose_4: 0x0
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Grandiose_cpy: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Grandiose-0.,_function_0xa805bfef,70,Exception state,Informational
+247,5661,"storage_2: 0xa8795cd3fffffffffffffffffffffffffffffffffffffffffffffffffffffffe
+mem_0 + 192 + 32*calldata_Grandiose_4 + calldata_Grandiose_4: 0x57f25cd000000000000000000000000000000000000000000000000000000000
+mem_128 + 32 + 32*calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+caller: 0x0
+calldata_Grandiose_0: 0xa805bfef00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Grandiose_cpy: 0x0
+callvalue: 0x0
+","A possible integer overflow exists in the function `_function_0xa805bfef`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,_function_0xa805bfef,70,Integer Overflow ,Warning
+248,5700,"The exception is triggered under the following conditions:
+
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Grandiose_cpy: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+caller: 0x0
+calldata_Grandiose_0: 0xa805bfef00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+mem_128 + 32 + 32*calldata_Grandiose_4 + calldata_Grandiose_4: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Grandiose-0.,_function_0xa805bfef,71,Exception state,Informational
+249,5736,"The exception is triggered under the following conditions:
+
+mem_128 + 32 + 32*calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Grandiose_cpy: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+caller: 0x0
+calldata_Grandiose_0: 0xa805bfef00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+mem_160 +
+32*calldata_Grandiose_4 + calldata_Grandiose_4 +
+32 +
+32*calldata_Grandiose_4 + calldata_Grandiose_32 + 4: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Grandiose-0.,_function_0xa805bfef,71,Exception state,Informational
+250,5765,"The exception is triggered under the following conditions:
+
+mem_160 +
+32*calldata_Grandiose_4 + calldata_Grandiose_4 +
+32 +
+32*calldata_Grandiose_4 + calldata_Grandiose_32 + 4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+mem_128 + 32 + 32*calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_1 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+calldata_Grandiose_cpy: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+calldata_Grandiose_4 + calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_0: 0x0
+caller: 0x0
+calldata_Grandiose_0: 0xa805bfef00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+mem_192 +
+32*calldata_Grandiose_4 + calldata_Grandiose_4 +
+32*calldata_Grandiose_4 + calldata_Grandiose_32 + 4 +
+32 +
+32*calldata_Grandiose_4 + calldata_Grandiose_32 + 36: 0x0
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Grandiose-0.,_function_0xa805bfef,71,Exception state,Informational
+251,6677,"timestamp: 0x0
+storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0x1
+storage_0 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+caller: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+caller: 0x0
+storage_0: 0xffffffffffffffffffffffffffffffffffffffff00
+calldatasize_Grandiose: 0x3
+callvalue: 0x0
+","A possible integer underflow exists in the function `fallback`.
+The subtraction may result in a value < 0.",Grandiose-0.,fallback,225,Integer Underflow,Warning
+252,6834,"storage_7: 0x0
+calldata_Grandiose_4: 0x1
+storage_9: 0x0
+calldata_Grandiose_0: 0xe115234300000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `payout(uint256)`.
+The subtraction may result in a value < 0.",Grandiose-0.,payout(uint256),156,Integer Underflow,Warning
+253,6835,"storage_7: 0x0
+calldata_Grandiose_4: 0x0
+storage_9: 0x0
+calldata_Grandiose_0: 0xe115234300000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `payout(uint256)`.
+The subtraction may result in a value < 0.",Grandiose-0.,payout(uint256),156,Integer Underflow,Warning
+254,6874,"The exception is triggered under the following conditions:
+
+storage_7: 0x1
+calldata_Grandiose_4: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_9: 0x0
+calldata_Grandiose_0: 0xe115234300000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Grandiose-0.,payout(uint256),160,Exception state,Informational
+255,6993,"storage_3 +
+keccac_1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+1461501637330902918203684832716283019655932542975_&
+UDiv(storage_75276140696391174450305814049576319106646922510300487059720162673006384432776_+
+115792089237316195423570985008687907853269984665640564039457584007913129639935_+
+storage_7_+
+115792089237316195423570985008687907853269984665640564039457584007913129639935*
+calldata_Grandiose_4,
+_____256): 0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffef6c0
+storage_7: 0x200000000000000000000000000000000000000001
+calldata_Grandiose_4: 0x0
+storage_9: 0x0
+calldata_Grandiose_0: 0xe115234300000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A possible integer overflow exists in the function `payout(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,payout(uint256),161,Integer Overflow ,Warning
+256,7448,"The exception is triggered under the following conditions:
+
+calldata_Grandiose_4: 0x0
+storage_7: 0x0
+calldata_Grandiose_0: 0xedf26d9b00000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Grandiose-0.,_function_0xedf26d9b,24,Exception state,Informational
+257,7668,"storage_7: 0x0
+storage_9: 0xff00
+calldata_Grandiose_0: 0xe115234300000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A possible integer underflow exists in the function `payout(uint256)`.
+The subtraction may result in a value < 0.",Grandiose-0.,payout(uint256),199,Integer Underflow,Warning
+258,7694,"The exception is triggered under the following conditions:
+
+storage_7: 0x0
+storage_9: 0xff00
+calldata_Grandiose_0: 0xe115234300000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+callvalue: 0x0
+","A reachable exception (opcode 0xfe) has been detected. This can be caused by type errors, division by zero, out-of-bounds array access, or assert violations. This is acceptable in most situations. Note however that `assert()` should only be used to check invariants. Use `require()` for regular input checking. ",Grandiose-0.,payout(uint256),203,Exception state,Informational
+259,8048,"storage_3: 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+storage_9: 0xff00
+calldata_Grandiose_0: 0xe115234300000000000000000000000000000000000000000000000000000000
+calldatasize_Grandiose: 0x4
+storage_7: 0x1
+callvalue: 0x0
+","A possible integer overflow exists in the function `payout(uint256)`.
+The addition or multiplication may result in a value higher than the maximum representable integer.",Grandiose-0.,payout(uint256),213,Integer Overflow ,Warning
